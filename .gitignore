@@ -1,0 +1,114 @@
+# ─────────────────────────────
+# 🌐 FRONTEND (dashboard/)
+# ─────────────────────────────
+
+dashboard/node_modules/
+extension/node_modules/
+extension/dist/
+dashboard/dist/
+dashboard/.cache/
+dashboard/.DS_Store
+
+# ─────────────────────────────
+# 📦 PYTHON BACKEND
+# ─────────────────────────────
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+*.log
+
+# Environments
+dashboard/.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Pipenv
+# Include Pipfile.lock for reproducibility
+# Pipfile.lock
+
+# Output files
+output/kpis/
+output/raw/
+!output/.gitkeep
+
+# Coverage/test/CI
+.coverage
+.coverage.*
+.tox/
+.nox/
+.cache/
+htmlcov/
+.pytest_cache/
+.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Build artifacts
+build/
+dist/
+downloads/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# Tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# IDEs
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Other
+.DS_Store
+pdm.lock
+.pdm.toml
+.pdm-python
+.pdm-build/
+.pybuilder/
+cython_debug/
+__pypackages__/
+ipython_config.py
+.ipynb_checkpoints/
+profile_default/
+.webassets-cache
+celerybeat-schedule
+celerybeat.pid
+
+# Sphinx/MkDocs
+docs/_build/
+site/
+
+ghaminer/
+
+# Local GHAMiner clone and logs
+ghaminer/
+app.log6
+builds_features.csv

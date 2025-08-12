@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+requests = "*"
+pyyaml = "*"
+numpy = "*"
+pandas = "*"
+fastapi = "*"
+uvicorn = "*"
+
+[dev-packages]
+pytest = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.11"

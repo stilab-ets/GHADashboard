@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.chart-style {
+    @apply border rounded-lg border-gray-200 bg-white;
+}
+
+.sidemenu-item {
+    @apply px-4 py-2 text-left text-gray-700 font-semibold cursor-pointer transition-colors duration-200 rounded-xl;
+}
+
+.sidemenu-item:hover:not(.sidemenu-item-selected) {
+    @apply bg-blue-200;
+}
+
+.sidemenu-item-selected {
+    @apply bg-blue-400 text-white font-semibold;
+}
+
+.sidemenu-item-selected:hover {
+    @apply bg-blue-500;
+}
